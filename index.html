@@ -114,8 +114,8 @@
                             single-threted Programming language. It can one
                             thing at a time. It works syncronusly. For example,
                             setTimeout method oparetion prossed in the stack
-                            then it send the to web Api and waiting in queue .
-                            In this time other oparetion are processing continue
+                            then it send the to web Api and waiting in queue. In
+                            this time other oparetion are processing continue
                             and execute them. When stack is empty then
                             event-loop send to stack srially (depending on the
                             deleay time) they are waiting in the queue.
@@ -125,7 +125,15 @@
                         <h3>
                             03. Difference to the localStorage & SessionStorage.
                         </h3>
-                        <p></p>
+                        <p>
+                            localStorage and sessionStorage almost are same API.
+                            But different to them, because the data save
+                            longtime in Browser localStorage. Never destroy
+                            after the closing browser. Othe hands sessionStorage
+                            cannot save the data longtime. sessionStorage save
+                            the data temporary. When the window or tab is close
+                            the destroy all data in the sessionStorage.
+                        </p>
                     </div>
                 </div>
             </div>
