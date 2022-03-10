@@ -51,15 +51,27 @@
                     id="navbarSupportedContent"
                 >
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-link active" role="button" onclick="switchTab( 'posts' )">
+                        <li
+                            class="nav-link active"
+                            role="button"
+                            onclick="switchTab( 'posts' )"
+                        >
                             <i class="fa-solid fa-house"></i>
                         </li>
 
-                        <li class="nav-link active" role="button" onclick="switchTab( 'liked' )">
+                        <li
+                            class="nav-link active"
+                            role="button"
+                            onclick="switchTab( 'liked' )"
+                        >
                             <i class="fa-solid fa-heart text-danger"></i>
                         </li>
 
-                        <li class="nav-link active" role="button" onclick="switchTab( 'reported' )">
+                        <li
+                            class="nav-link active"
+                            role="button"
+                            onclick="switchTab( 'reported' )"
+                        >
                             <i class="fa-solid fa-eye-slash"></i>
                         </li>
                     </ul>
@@ -67,8 +79,7 @@
             </nav>
         </header>
         <main class="main container mx-auto p-3">
-            <div id="posts">
-            </div>
+            <div id="posts"></div>
             <div id="liked">
                 <h1>Liked posts</h1>
             </div>
@@ -77,6 +88,45 @@
                 <h1>Reported posts</h1>
             </div>
         </main>
+        <!-- Questions and Answer -->
+        <section>
+            <div class="row my-5">
+                <div class="col-md-6 offset-md-3">
+                    <div class="qestion-answer mb-3">
+                        <h3>01. How dose JavaScript works?</h3>
+                        <p>
+                            JavaScript is a single-threted Programming language.
+                            It can one thing at a time. It works synchronusly.
+                            Everything in JavaScript happens inside an Execution
+                            Context. When we are write the JavaScript code
+                            useing different kind of things like that Variable,
+                            Function, Object, Array and so on, than javascript
+                            allocates the memory to all they are present in the
+                            progrm.
+                        </p>
+                    </div>
+                    <div class="qestion-answer mb-3">
+                        <h3>02. What is JavaScript event loop?</h3>
+                        <p></p>
+                    </div>
+                    <div class="qestion-answer mb-3">
+                        <h3>
+                            03. Difference to the localStorage & SessionStorage.
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Porro repellendus ut similique, ipsa a maiores
+                            debitis nam, consequatur reiciendis repellat et
+                            nihil eaque ex voluptatem eius ratione velit
+                            consectetur labore quam quos sapiente quaerat
+                            necessitatibus? Perferendis voluptatem similique
+                            vero nihil et omnis aperiam, nostrum nobis beatae
+                            enim voluptate incidunt rerum!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
         <footer></footer>
 
         <!-- add javascript  file  -->
